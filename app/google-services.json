@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "248892206510",
+    "project_id": "androidbasearch",
+    "storage_bucket": "androidbasearch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248892206510:android:b3635848d809d6ac052c3f",
+        "android_client_info": {
+          "package_name": "com.sample.basearchpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248892206510-49thb02ijjob6lo9vtcpdrg8b7gefa6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQMss9IujSxnMxiLAIk9ji9gl2MbcyiNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248892206510-49thb02ijjob6lo9vtcpdrg8b7gefa6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

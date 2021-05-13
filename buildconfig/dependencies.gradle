@@ -1,0 +1,58 @@
+/*
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+ext {
+    //Android libraries
+
+    kotlin_version = "1.4.31"
+    hilt_version = "2.35"
+    android_core_version = "1.3.2"
+
+    mainApplication = [
+            kotlinstdlib      : "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version",
+            androidCore       : "androidx.core:core-ktx:$android_core_version",
+            appCompat         : "androidx.appcompat:appcompat:1.2.0",
+            material          : "com.google.android.material:material:1.3.0",
+            constraintLayout  : "androidx.constraintlayout:constraintlayout:2.0.4",
+            navigation        : "androidx.navigation:navigation-fragment-ktx:2.3.5",
+            navigationUi      : "androidx.navigation:navigation-ui-ktx:2.3.5",
+            livedata          : "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1",
+            viewModel         : "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
+            navigationFragment: "androidx.navigation:navigation-fragment-ktx:2.3.5",
+
+            //HILT
+            hilt              : "com.google.dagger:hilt-android:$hilt_version",
+            hiltCompiler      : "com.google.dagger:hilt-compiler:$hilt_version",
+
+            //Firebase
+            firebase          : "com.google.firebase:firebase-bom:27.1.0",
+            analytics         : "com.google.firebase:firebase-analytics-ktx",
+            crashlytics       : "com.google.firebase:firebase-crashlytics-ktx",
+
+            androidAnnotations: "com.android.support:support-annotations:$appCompat_version",
+    ]
+
+
+    unitTesting = [
+            junit        : "junit:junit:4.13.2",
+            junitAndroidX: "androidx.test.ext:junit:1.1.2",
+            espresso     : "androidx.test.espresso:espresso-core:3.3.0",
+    ]
+
+    acceptanceTesting = [
+
+    ]
+
+    development = [
+
+    ]
+
+    codeAnalysis = [
+
+    ]
+}*/

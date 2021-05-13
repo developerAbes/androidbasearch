@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
@@ -23,9 +24,14 @@ class DashboardFragment : Fragment() {
                 ViewModelProvider(this).get(DashboardViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_dashboard, container, false)
         val textView: TextView = root.findViewById(R.id.text_dashboard)
+        val buttonCrashTest: Button = root.findViewById(R.id.button_crash_test)
         dashboardViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
+        buttonCrashTest.text = getString(R.string.button_crash)
+        buttonCrashTest.setOnClickListener {
+            throw RuntimeException("Test Crash") // Force a crash
+        }
         return root
     }
 }
